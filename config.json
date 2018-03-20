@@ -1,0 +1,12 @@
+{
+	"bin":"c:\\Program Files\\wkhtmltopdf\\bin\\wkhtmltopdf.exe",
+	"parameter":{
+		"footer-font-name":"ubuntu",
+		"footer-left":"[webpage]",
+		"footer-right":"[page]/[topage]",
+		"footer-font-size":6,
+		"header-right":"[date]",
+		"header-font-name":"ubuntu",
+		"header-font-size":6},
+	"enabled":["footer-line", "print-media-type"]
+}
