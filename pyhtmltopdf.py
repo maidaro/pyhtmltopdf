@@ -35,7 +35,8 @@ def build_command(url, config):
 	return cmd
 
 if __name__ == '__main__':
-	with open('config.json', 'r', encoding='utf-8') as f:
+	path, _ = os.path.split(__file__)
+	with open(os.path.join(path, 'config.json'), 'r', encoding='utf-8') as f:
 		config = json.load(f)
 	#print(config)
 	#parameter = build_parameter(config)
